@@ -1,0 +1,102 @@
+header {
+  background: #111827;
+  font-family: 'Oswald', sans-serif;
+
+  font-size: 15px;
+  
+}
+
+
+.alinhar{
+
+}
+
+.box{
+/* width: 92%; */
+
+}
+
+#container{
+margin-left: 11%;
+margin-right: 10%; 
+
+}
+
+
+
+.bloco {
+text-align: center;
+max-width: 240px;
+margin: 0 auto;
+}
+
+
+.liss {
+  width: 240px;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  margin-right: 1%;
+ 
+  display: inline-block;
+  /* background: #00CC99;   */
+}
+
+.liss img{
+  height: 280px;
+  object-fit: cover;
+  border-radius: 3%;
+}
+
+
+.p2-line2{
+position: relative;
+left: -65%;
+}
+
+.p-1 td i{
+left: 80%;
+position: relative;
+}
+
+.l-2{
+position: relative;
+left: 60%;
+}
+
+.text-card{
+font-family: 'Oswald', sans-serif;
+font-size: 60px;
+}
+
+#table{
+font-size: 35%;
+}
+
+
+
+/* .line hr{
+
+right: 3%;
+position: relative;
+margin-top: 2%;
+
+} */
+
+/* #navegation-bar{
+margin: 2%;
+position: relative;
+margin-left: 37%;
+} */
+
+
+@media screen and (min-width: 1600px){
+#container{
+  margin-left: 30%;
+}
+}
+
+@media screen and (max-width: 981px){
+#container{
+  margin-left: 20%;
+}
+}

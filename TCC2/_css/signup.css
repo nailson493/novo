@@ -1,0 +1,98 @@
+section h1{
+  font-family: 'Anton', sans-serif;
+
+}
+
+section a{
+  font-family: 'Anton', sans-serif;
+
+}
+
+.telefone{
+display: none;
+} 
+
+footer{
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+
+}
+
+
+
+#mik{
+background: linear-gradient(rgba(255, 0, 0, 0) 2%, #111827  5% );
+}
+
+#fundo{
+height: 100vh;
+}
+
+#formu{
+width: 50%;
+margin-left: 2%;
+}
+
+#lost{
+margin-left: 83%;
+/* margin-top: -120%; */
+top: -40px;
+position: relative;
+}
+
+
+.sign-up svg {
+font-family: 'Lobster', cursive;
+position: relative; 
+width: 100%; height: 100%;
+/* margin-top: -10%;
+margin-left: 10%; */
+
+}
+.sign-up svg text {
+
+animation: stroke 5s infinite alternate;
+stroke-width: 2;
+stroke: #0062ff;
+font-size: 140px;
+}
+@keyframes stroke {
+0%   {
+  fill: rgba(72,138,20,0); stroke: rgb(0, 50, 131);
+  stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+}
+70%  {fill: rgba(72,138,20,0); stroke: rgb(0, 54, 140); }
+80%  {fill: rgba(72,138,20,0); stroke: rgb(0, 68, 176); stroke-width: 3; }
+100% {
+  fill: rgb(0, 0, 0); stroke: rgba(54,95,160,0); 
+  stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+.btn-back:hover{
+  width: 50px;
+ 
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.9, 0.9);
+  }
+  50% {
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+

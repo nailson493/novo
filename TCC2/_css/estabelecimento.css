@@ -1,0 +1,198 @@
+body{
+    height: 100vh;
+}
+
+
+.side-card img{
+    min-height: 50px;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+
+#description h1{
+    margin-left: 10%;
+}
+
+.text-description h1{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+#lista{
+    top: -350px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bar{
+    width: 50%;
+}
+
+#lista{
+    width: 50%;
+}
+
+.bar a{
+
+    width: 100%;
+}
+
+    .bar img{
+        border-radius: 50%;
+        width: 100%;
+      
+    }
+
+.icon-profile{
+    width: 18%;
+}
+
+#protect{
+    width: 100%;
+}
+
+
+
+#protect{
+    margin-top: 10%;
+    /* min-width: 100px; */
+}
+
+#protect img{
+   
+    width: 20%;
+    margin-left: -1.5%;
+}
+
+#protect p{
+    min-width: 50%;
+    width: 100%;
+}
+
+#protect a{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#place{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+.place-title h1{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#default-carousel{
+    width: 100%;
+    min-width: 300px;
+}
+
+
+#form{
+    margin-left: 60%;
+    background-color: #111827;
+    padding: 1%;
+    border-radius: 2%;
+    position: sticky;
+    top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+#datepicker-header{
+    background-color: blueviolet;
+}
+
+#feedback{
+    width: 95%;
+    margin-left: 1.5%;
+}
+
+
+@media screen and (max-width: 756px){
+    .side-card{
+        display: none;
+    }
+    .bar{
+        width: 100%;
+    }
+    #lista{
+        width: 100%;
+    }
+    #default-carousel{
+        width: 205%; 
+        height: 300px;
+    }
+    #form{
+        visibility: hidden;
+    }
+    #lista{
+        margin-top: -15%;
+    }
+  
+     #protect{
+        margin-top: 20%;
+    }
+    #protect p{
+        width: 90%;
+    }
+    #protect img{
+        margin-top: -10%;
+        width: 25%;
+    }
+    #feedback{
+        width: 95%;
+        margin-left: 2%;
+    } 
+
+}
+
+@media screen and (max-width: 661px){
+    #default-carousel{
+        width: 205%; 
+        height: 300px;
+        margin-left: 2%;
+    }
+    #secao{
+        margin-left: 2%;
+    }
+
+    #protect img{
+        margin-top: -10%;
+        width: 25%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    #default-carousel{
+        width: 550px; 
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 376px){
+ 
+
+    #protect img{
+        width: 40%;
+        margin-left: -8px;
+    }
+    #protect p{
+        min-width: 150%;
+    }
+
+}
